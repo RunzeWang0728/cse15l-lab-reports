@@ -112,7 +112,7 @@ We could use ```WhereAmI.java``` in remote server with only one line! we could p
 ```
 ssh cs15lfa22eg@ieng6.ucsd.edu "java WhereAmI"
 ```
-**Note**: change the email to your ieng email!
+**Note**: change the email to your ieng6 email!
 
 ![Image](https://i.imgur.com/FFplhwg.png)
 
