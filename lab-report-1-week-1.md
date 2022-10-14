@@ -107,6 +107,20 @@ Now we could get on our remote server without entering the password again!
 **Last step**: Optimizing
 
 We could optimize our remote server process like:
+
+We could use ```WhereAmI.java``` in remote server with only one line! we could perform a command in a quote.
+```
+ssh cs15lfa22eg@ieng6.ucsd.edu "java WhereAmI"
+```
+**Note**: change the email to your ieng email!
+
+![Image](https://i.imgur.com/FFplhwg.png)
+
+Also we could perform multiple command by using semicolon:
+
+
+
+
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
@@ -115,6 +129,7 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ![Image](https://i.imgur.com/slxwAKn.png)
 
 In this way, we could perform multiple command in just one line by seperating the command with ```;``` Inthis specific example, I firstly copy ```WhereAmI.java``` and  ```OtherMain.java```. Then successfully compile ```WhereAmI.java```
+
 
 
 Thank you for reading!!!
