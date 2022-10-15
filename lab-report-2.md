@@ -97,6 +97,8 @@ The change I make in the code is creating a new temp array and updating the elem
 ![Image](https://i.imgur.com/crPYjUx.png)
 
 For ```filter```method, before testing, I create a checkString which it will return true if the length of the string is small or equal to 4 as shown below:
+
+
 ![Image](https://i.imgur.com/iJZ2lxw.png)
 
 The failing input is an ArrayList with ["qweeee","123","zxc"] as shown below in the test.
