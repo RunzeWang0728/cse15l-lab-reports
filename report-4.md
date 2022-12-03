@@ -19,6 +19,12 @@ vim DocSearchServer.java
 //save the change and quit
 :wq<Enter>
 ```
+The first command will open the DocSearchServer.java with vim mode and we will operate the change in the vim mode.
+
+The second command is the main command we perform. The %s is the command the replace. the first input is what we want to replace and the second input is what we are going to replace with. g means we will replace all the occurance in the java file. When we enter the start in the command, the cursor will highlight all the start in the vim mode which means it finds what we are looking for. After pressing the enter, all the start will become base!
+
+The last command is saving the change we just made and quit the file safely. And now all the `start` parameter in DocSearchServer.java will be `base`.
+
 
 In this way, we could replace all `start` to `base` in DocSearchServer.java with 21 presses :-)
 
